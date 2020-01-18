@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f33065f9-8fc8-4330-a9bc-35786c484e53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTLM/outputToBrowse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTLM/get.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +22,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/jsCheatSheet.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1479">
-                    <caret line="87" selection-start-line="87" selection-end-line="87" />
+                  <state relative-caret-position="704">
+                    <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
                     <folding>
                       <element signature="n#!!doc" expanded="true" />
                     </folding>
@@ -45,48 +46,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="7" />
+          <entry key="html" value="8" />
           <entry key="js" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="8" />
           <entry key="JavaScript" value="1" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3076" />
-          <entry key="js" value="1117" />
+          <entry key="html" value="3573" />
+          <entry key="js" value="1230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3076" />
+          <entry key="HTML" value="3573" />
           <entry key="JavaScript" value="84" />
-          <entry key="Scratch" value="1033" />
+          <entry key="Scratch" value="1146" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTLM/console.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTLM/outputToBrowse.html">
+        <entry file="file://$PROJECT_DIR$/HTLM/get.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            <state relative-caret-position="289">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -114,6 +106,7 @@
         <option value="$PROJECT_DIR$/HTLM/windowOnload.html" />
         <option value="$PROJECT_DIR$/HTLM/console.html" />
         <option value="$PROJECT_DIR$/HTLM/outputToBrowse.html" />
+        <option value="$PROJECT_DIR$/HTLM/get.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/jsCheatSheet.js" />
       </list>
     </option>
@@ -145,6 +138,16 @@
             <path>
               <item name="JavaScriptDesignation" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScriptDesignation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScriptDesignation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScriptDesignation" type="462c0819:PsiDirectoryNode" />
+              <item name="HTLM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScriptDesignation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScriptDesignation" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaScriptDesignation" type="b2602c69:ProjectViewProjectNode" />
@@ -198,12 +201,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579367046441</updated>
-      <workItem from="1579367048102" duration="8452000" />
+      <workItem from="1579367048102" duration="9520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8452000" />
+    <option name="totallyTimeSpent" value="9520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -272,15 +275,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTLM/outputToBrowse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="264">
           <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTLM/get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/jsCheatSheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="704">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

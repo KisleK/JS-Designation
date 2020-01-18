@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>getElementById</title>
+
+    <script>
+        window.onload = function () {
+            document.getElementById('one').addEventListener('click', respondOne);
+            document.getElementById('content').addEventListener('click', respond);
+            document.getElementById('two').addEventListener('click', respondtwo);
+        };
+
+        function respond(e) {
+            console.log('You clicked Content');
+            document.getElementById('content').innerHTML = "";
+        }
+        function respondOne (e) {
+            console.log ('You clicked One');
+        }
+        function respondtwo (e) {
+            console.log('you clicked two');
+        }
+    </script>
+</head>
+<body>
+    <div id="content">
+        <p id="one">This is sentence one.</p>
+        <p id="two">This is sentence two.</p>
+    </div>
+</body>
+</html>
