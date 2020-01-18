@@ -1,9 +1,9 @@
 window.onload = function () {
-    document.getElementById('thisButton').addEventListener('click', respond);
+    document.getElementById('this-Button').addEventListener('click', respond);
 };
 
 
 function respond(e) {
-    alert('Clicked script tag js');
+    console.log('Clicked JS file');
 }
 
