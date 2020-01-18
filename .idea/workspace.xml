@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f33065f9-8fc8-4330-a9bc-35786c484e53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JS/GettingStartedJS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/GettingStartedJS/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTLM/GettingStartedHTML/first_javascript_lab.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/first_javascript_lab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/GettingStartedJS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,14 +59,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3812" />
-          <entry key="js" value="1522" />
+          <entry key="html" value="3815" />
+          <entry key="js" value="1652" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3812" />
-          <entry key="JavaScript" value="376" />
+          <entry key="HTML" value="3815" />
+          <entry key="JavaScript" value="506" />
           <entry key="Scratch" value="1146" />
         </counts>
       </usages-collector>
@@ -82,8 +83,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTLM/GettingStartedHTML/first_javascript_lab.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab1/first_javascript_lab.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
@@ -109,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS/GettingStartedJS/main.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab1/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="153">
+              <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -145,8 +146,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/jsCheatSheet.js" />
         <option value="$PROJECT_DIR$/HTLM/Getting Started HTML/first_javascript_lab.html" />
         <option value="$PROJECT_DIR$/HTLM/GettingStartedHTML/whereToPutJS.html" />
-        <option value="$PROJECT_DIR$/HTLM/GettingStartedHTML/first_javascript_lab.html" />
         <option value="$PROJECT_DIR$/JS/GettingStartedJS/main.js" />
+        <option value="$PROJECT_DIR$/HTLM/GettingStartedHTML/first_javascript_lab.html" />
       </list>
     </option>
   </component>
@@ -202,6 +203,11 @@
             </path>
             <path>
               <item name="JavaScriptDesignation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScriptDesignation" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScriptDesignation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -226,6 +232,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kkuhn\WebstormProjects\JavaScriptDesignation\lab1" />
       <recent name="C:\Users\kkuhn\WebstormProjects\JavaScriptDesignation\JS\Getting Started JS" />
       <recent name="C:\Users\kkuhn\WebstormProjects\JavaScriptDesignation\HTLM\Getting Started" />
       <recent name="C:\Users\kkuhn\WebstormProjects\JavaScriptDesignation\HTLM" />
@@ -254,16 +261,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579367046441</updated>
-      <workItem from="1579367048102" duration="10335000" />
+      <workItem from="1579367048102" duration="10614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10335000" />
+    <option name="totallyTimeSpent" value="10614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -350,17 +356,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTLM/GettingStartedHTML/first_javascript_lab.html">
+    <entry file="file://$PROJECT_DIR$/lab1/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="153">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/GettingStartedJS/main.js">
+    <entry file="file://$PROJECT_DIR$/lab1/first_javascript_lab.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
