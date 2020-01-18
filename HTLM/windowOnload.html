@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window.onload function</title>
+    <script>
+        window.onload = function () {
+            //Initialization
+            document.getElementById('myButton').addEventListener('click', respond);
+        };
+
+        window.onclick = function () {
+            alert('window clicked');
+        }
+        function respond(e) {
+            alert('Buton Clicked');
+        }
+
+    </script>
+</head>
+<body>
+<!--
+If we run a script without window.onload before the button/id we are trying to get it will now work
+it creates a race condition where it runs the script before the button.
+
+it we place the script after the button it will work
+-->
+
+<!--
+window.onload means it will not run until the window loads
+window.onload loads an anonymous function () empty
+-->
+<button id="myButton">Press Me</button>
+
+</body>
+</html>
