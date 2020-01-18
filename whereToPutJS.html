@@ -5,22 +5,32 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Where to Put JS</title>
+    <script src="where.js"></script>
 </head>
 <body>
     <h1>The quick brown fox jumped over the lazy dogs</h1>
-<!--the first spot is directly in the html inline-->
+
+
+    <!--the first spot is directly in the html inline-->
     <!--
     this is not recommended as it is easier to maintain when not inline
     bad practice
     -->
     <button onclick="alert('You clicked me')">click me inline</button>
-<!--the second spot is in script tagg-->
+
+
+    <!--the second spot is in script tagg-->
     <button id="myButton">Click me Script Tag</button>
+
     <script>
         document.getElementById('myButton').addEventListener('click', respond);
         function respond (e) {
             alert('Clicked script tag js')
         }
     </script>
+
+<!--the third place is in a separate file Recommended-->
+    <button id="myButton">Click me Separate file</button>
+
 </body>
 </html>
