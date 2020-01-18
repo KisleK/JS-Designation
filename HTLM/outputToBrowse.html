@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Output To Browser</title>
+
+    <script>
+        // document.write('hello');   DONT DO THIS! does not mesh well with html
+        window.onload = function () {
+
+
+
+            // document.getElementById('one').innerHTML = "<h1>Welcome To Kyle's World</h1>";    // This loads the divs with html
+            // document.getElementById('two').innerText = "JavaScript Specialist Course ";    // This loads the divs with html
+
+
+            document.getElementById('myButton').addEventListener('click', buttonClick); //adds the click function to the button
+        };
+
+        function buttonClick(e) {
+            //.innerHTML will override the content in the div
+            // document.getElementById('one').innerHTML = "<h1>Welcome To Kyle's World</h1>";
+            // document.getElementById('two').innerText = "JavaScript Specialist Course ";
+
+            //.innerHTML+= will append it to the content
+            document.getElementById('one').innerHTML += "<h1>Welcome To Kyle's World</h1>";
+            document.getElementById('two').innerText += "JavaScript Specialist Course ";
+        }
+
+
+    </script>
+</head>
+<body>
+    <div id="one">Div one</div>
+    <div id="two">div 2</div>
+<button id="myButton">Click Me</button>
+</body>
+</html>
