@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variables</title>
+
+    <script>
+        var score = 1000; // short hand of declaring and initializing is
+        var age = 42;
+        window.onload = function () {
+            // var score; var declares a variable
+            // score = 100; setting score equal to something is how you initialize it
+
+
+            out();
+        };
+
+        function out () {
+            document.getElementById('result').innerHTML = "Age: " + age;
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <div id="result"></div>
+
+</body>
+</html>
