@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First JS</title>
+</head>
+<style>
+    #touchTarget {
+        background-color: #990000;
+        color: #ffffff;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+</style>
+<script>
+    //window.onload when the window loads
+    window.onload = function ()
+    {
+        //from the document (document)
+        //we get and element by the id (.getElementById)
+        //adding an event listener that event is a click
+        document.getElementById('touchTarget').addEventListener('click', respond);
+    }
+
+    function respond(e) {
+        //function wont run until called by click event.
+        // alert("You clicked");
+        document.getElementById('touchTarget').style.width = "400px";
+    }
+
+
+
+</script>
+<body>
+<div id="touchTarget"><h1>Touch Me!</h1></div>
+</body>
+</html>
