@@ -8,7 +8,19 @@
 </head>
 <body>
     <h1>The quick brown fox jumped over the lazy dogs</h1>
-<!--the first spot is directly in the html-->
-    <button onclick="alert('You clicked me')">click me</button>
+<!--the first spot is directly in the html inline-->
+    <!--
+    this is not recommended as it is easier to maintain when not inline
+    bad practice
+    -->
+    <button onclick="alert('You clicked me')">click me inline</button>
+<!--the second spot is in script tagg-->
+    <button id="myButton">Click me Script Tag</button>
+    <script>
+        document.getElementById('myButton').addEventListener('click', respond);
+        function respond (e) {
+            alert('Clicked script tag js')
+        }
+    </script>
 </body>
 </html>
