@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Booleans Guess</title>
+
+    <script>
+        var randomNumber; //made variable global to be used in anf function in this script
+        window.onload = function () {
+            randomNumber = Math.floor((Math.random() * 10) + 1);
+            console.log(randomNumber); //iterative testing. Test as you go
+
+            document.getElementById('btnCheck').addEventListener('click', checkGuess);
+
+        };
+
+        function checkGuess(e) {
+            var userGuess = document.getElementById('guess').value;
+
+            if(userGuess == randomNumber)
+            {
+                document.getElementById('result').innerHTML = "<h1>You Are Correct!</h1>";
+            } else
+            {
+                document.getElementById('result').innerHTML = "<h1>You are Wrong!</h1>";
+
+            }
+        }
+    </script>
+</head>
+<body>
+<!--create a user interface-->
+
+<!--place for guess-->
+<label for="guess">Guess a Number between 1 and 10</label>
+<br>
+<input type="number" min="1" max="10" id="guess">
+<button id="btnCheck">Am I right?</button>
+
+<div id="result"></div>
+</body>
+</html>
