@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math Functions</title>
+
+    <script>
+        window.onload = function () {
+            var out = "";
+
+            out += Math.PI; // math function calculating pi
+            out += "<br>" + Math.sqrt(81); // math function printing the square root
+            out += "<br>" + Math.abs(51-61); // absolute value function calculates the positive
+            out += "<br>" + Math.round(Math.PI); //math round function and math pi function, rounding pi
+            out += "<br>" + Math.random(); //math random function picks random number from 0-1
+            out += "<br>" + Math.floor((Math.random() * 10) + 1 ); // math random  times 10, gets the number and mult by 10. floor chops off the decimal
+            // w3schools JavaScript Math Function
+
+
+
+
+            document.getElementById('result').innerHTML = out;
+
+        }
+    </script>
+</head>
+<body>
+    <div id="result"></div>
+</body>
+</html>
