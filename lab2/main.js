@@ -1,10 +1,13 @@
 window.onload = function () {
-    document.getElementById('addingButton').addEventListener('click', addFunction)
+    document.getElementById('addingButton').addEventListener('click', addFunction);
+    document.getElementById('multButton').addEventListener('click', multFunction);
 };
 
 function addFunction(a) {
-    var answer = "";
+    var add = "";
 
-    answer += + document.getElementById('inputOne').value + + document.getElementById('inputTwo').value;
-    alert(answer);
+    add += + document.getElementById('inputOne').value + + document.getElementById('inputTwo').value;
+    alert('add ' + add);
 }
+
+
