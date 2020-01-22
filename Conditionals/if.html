@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>If</title>
+
+    <script>
+        var age = 19;
+        var citizen = true;
+
+        var age2 = 16;
+        var parentPresent = false;
+
+        window.onload = function () {
+
+
+            if (age > 18 && citizen) {
+                document.getElementById('result').innerHTML = "<h1>You can vote</h1>"
+            } else if (age === 18) {
+                document.getElementById('result').innerHTML= "<h1>You should register to vote</h1>"
+            } else {
+                document.getElementById('result').innerHTML= "<h1>Nope you cant vote</h1>"
+
+            }
+
+            if ( age2 > 17 || parentPresent) {
+                console.log('You can see the movie');
+            }else if (age2 < 17 && parentPresent) {
+                console.log('oh you have a parent ')
+            }  else if (age2 < 17 && !parentPresent) {
+                console.log('underage no parent');
+            }  else {
+                console.log('else');
+            }
+        };
+
+
+    //this was supposed to be basic if statement but I added else
+
+    </script>
+
+</head>
+<body>
+    <div id="result"></div>
+</body>
+</html>
