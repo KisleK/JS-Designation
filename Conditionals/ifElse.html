@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>if...else</title>
+
+    <script>
+        window.onload = function () {
+            // citizen = false;
+            // age = 18;
+            //
+            // if(citizen && age >= 18){
+            //     document.getElementById('result').innerHTML = "<h1>You may vote</h1>"
+            // } else {
+            //     document.getElementById('result').innerHTML = "<h1>You cannot vote yet</h1>"
+            // }
+
+            document.getElementById('btnOne').addEventListener('click', btnClicked);
+            document.getElementById('btnTwo').addEventListener('click', btnClicked);
+
+        };
+
+        function btnClicked (e) {
+            // alert("button was clicked");
+            console.log(e.target.id);
+
+            if(e.target.id === "btnOne") {
+                alert("you pushed button one");
+            } else {
+                alert("you pushed button two");
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div id="result"></div>
+<button id="btnOne">One</button>
+<button id="btnTwo">Two</button>
+</body>
+</html>
