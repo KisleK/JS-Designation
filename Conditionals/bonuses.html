@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculating Bonuses</title>
+    <script>
+        window.onload = function () {
+            document.getElementById('calculateBonus').addEventListener('click', calculate);
+        };
+
+        function calculate (e) {
+            var sales = document.getElementById('salesTotal').value;
+            var bonusPercent;
+
+            //Can do multiple ifs and one else (or another if)
+            // if(sales > 100000) {
+            //     bonusPercent = .005;
+            // }
+            // if(sales > 200000) {
+            //     bonusPercent = .0065;
+            // }
+            // if(sales > 300000) {
+            //     bonusPercent = .007;
+            // }
+            //  else {
+            //     bonusPercent = 0;
+            // }
+
+            //Or if an if else starting high to low
+            if(sales >= 400000) {
+                bonusPercent = .01;
+            } else if (sales >= 300000) {
+                bonusPercent = .007;
+            } else if(sales >= 200000) {
+                bonusPercent = .0065;
+            } else if (sales >= 100000) {
+                bonusPercent = .005;
+            }
+            else {
+                bonusPercent = 0;
+            }
+            var amountOfBonus = sales * bonusPercent;
+
+            document.getElementById('result').innerHTML = "<h1> Your bonus is: " + "$" + amountOfBonus + "</h1"
+        }
+    </script>
+</head>
+<body>
+
+<label for="salesTotal">Enter Total Sales</label>
+<input type="number" id="salesTotal">
+<button id="calculateBonus">Process Bonus</button>
+<div id="result"></div>
+
+</body>
+</html>
