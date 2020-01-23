@@ -10,7 +10,7 @@ x = addNumbers(1, 2);
 
 
 // Edit Dom element
-document.getElementById("elementID")// gets the whole element from opening to closing tags and everything inbetween
+document.getElementById("elementID"); // gets the whole element from opening to closing tags and everything inbetween
 
 document.getElementById("elementID").innerHTML = "Hello World!"; // .innerHTML = will modify what is in the element .innerHTML += will append to div
 
