@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Switch Case Break</title>
+
+    <script>
+        window.onload = function () {
+            document.getElementById('processTax').addEventListener('click', processTaxRate);
+        };
+
+        function processTaxRate (e) {
+            var year = document.getElementById('year').value; // get element by id is a string!
+            console.log(year);
+            var taxRate;
+            switch(year){ //if year
+                case "2010":  //equals this
+                    taxRate = .05; //do this
+                    break;   // need this dont forget break
+                case "2011":
+                    taxRate = .055;
+                    break;
+                case "2012":
+                    taxRate = .06;
+                    break;
+                case "2013":
+                    taxRate = .065;
+                    break;
+                case "2014":
+                    taxRate = .07;
+                    break;
+                case "2015":
+                    taxRate = .075;
+                    break;
+                case "2016":
+                    taxRate = .08;
+                    break;
+                default: //default doesnt need a break
+                    taxRate = .085;
+            }
+document.getElementById('result').innerHTML = "<h1>" + taxRate + "%</h1>";
+        }
+    </script>
+
+</head>
+<body>
+
+<select name="" id="year">
+    <option value="2010">2010</option>
+    <option value="2011">2011</option>
+    <option value="2012">2012</option>
+    <option value="2013">2013</option>
+    <option value="2014">2014</option>
+    <option value="2015">2015</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+
+</select>
+<button id="processTax">Show Tax Rate</button>
+<br>
+<div id="result"></div>
+
+</body>
+</html>
