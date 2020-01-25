@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>For Loops</title>
+
+    <script>
+        window.onload = function () {
+            //first part is the initialization, second part is the continuation variable, third and final is the counter
+
+
+            for(var x = 100; x > 0; x--) {
+                if (x % 2 === 0) {
+                    document.getElementById('result').innerHTML += x + "    foo" + "<br>";
+                }
+                else if(x % 3 === 0) {
+                    document.getElementById('result').innerHTML += x + "    bar" + "<br>";
+                }
+                else if(x % 5 === 0) {
+                    document.getElementById('result').innerHTML += x + "    foo bar" + "<br>";
+                }
+            }
+         /*   var out = "";
+
+            for(var count = 0; count < 45; count++ ) {
+                out += count;
+                out += "<br>";
+            }
+            document.getElementById('result').innerHTML = out;
+        */
+        }
+
+
+    </script>
+
+</head>
+<body>
+    <div id="result">
+
+    </div>
+</body>
+</html>
