@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Break And Continue</title>
+
+    <script>
+        window.onload = function () {
+            var y = 0;
+
+            while (y < 15) {
+                document.getElementById('result').innerHTML += y + "<br>";
+                y++;
+                if ( y == 11 ) {break;} // break will  break out of loop/test and stop iterating through
+            }
+
+
+            var x = 1;
+
+            while ( x < 50 ) {
+                if (x % 2 == 0 ) {
+                    console.log(x);
+                    x++;
+                    continue; // continue will break out of the iff statement and continue looping through the while loop
+                }
+                document.getElementById('result').innerHTML += (x + "<br>");
+                x++;
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+    <div id="result"></div>
+
+</body>
+</html>
