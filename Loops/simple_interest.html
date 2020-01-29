@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Interest</title>
+
+    <script>
+        window.onload = function () {
+            document.getElementById('btnCalc').addEventListener('click', calculateInterest)
+        };
+
+        function calculateInterest(e) {
+            var amount = parseFloat(document.getElementById('amount').value); // add parseFloat since the ID is a string
+            var term = parseFloat(document.getElementById('term').value);
+            var rate = parseFloat(document.getElementById('interest').value);
+            var count = 0;
+            var out = "";
+
+            while (count < term) {
+                amount = amount + (amount * (rate/12/100)); //See above parseFloat. when strings come through they are concatenated not added
+                out += "Month " + (count + 1) + " $" + (Math.floor(amount));
+                out += "<br>";
+                count++;
+            }
+            document.getElementById('result').innerHTML = out;
+        }
+
+    </script>
+
+</head>
+<body>
+
+<label for="amount">Amount Invested:</label>
+<input type="number" id="amount"> <br>
+<label for="term">How many Months</label>
+<input type="number" id="term"><br>
+<label for="interest">Interest Rate</label>
+<input type="number" id="interest"> <br>
+
+<button id="btnCalc">Calculate Interest</button>
+<div id="result"></div>
+
+</body>
+</html>
